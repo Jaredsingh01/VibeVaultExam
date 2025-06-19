@@ -135,3 +135,62 @@ Implements modern Android design with edge-to-edge layout support and proper ins
 All data is stored temporarily using private ArrayList variables. Data is lost when the app is closed.
 
 
+# Usage
+1. Launch the App
+After building and installing the app on your Android device or emulator:
+
+The app opens to the main screen and sets up an edge-to-edge layout.
+
+Navigation to the song input screen happens automatically.
+
+## 2. Add a New Song
+Enter the following details:
+
+🎵 Song Title
+
+🎤 Artist Name
+
+⭐ Rating (only numbers 1–5 allowed)
+
+💬 Comment
+
+Tap the Add Song button.
+
+A success message (Toast) will confirm the addition.
+
+Input fields will automatically clear for the next entry.
+
+⚠️ If any field is left blank or the rating is invalid, an error message will be shown.
+
+## 3. View Playlist
+Tap the View Playlist button.
+
+You’ll be taken to a detailed view screen.
+
+Tap Display Songs to see all added songs, including:
+
+Title
+
+Artist
+
+Rating
+
+Comment
+
+## 4. Calculate Average Rating
+In the detailed view screen, tap Calculate Average.
+
+The app will compute the average of all ratings using a loop.
+
+The result is shown below the playlist.
+
+⚠️ If there are no ratings, a warning will be displayed and the average won't be shown.
+
+## 5. Navigation & Exit
+Tap Return in the Detailed View to go back to the song input screen.
+
+Tap Exit in the song input screen to close the activity.
+
+
+
+

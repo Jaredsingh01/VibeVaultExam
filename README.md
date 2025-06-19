@@ -4,10 +4,10 @@ VibeVault is a simple Android application that allows users to create and manage
 
 ## Features
 
-- 🎵 **Add Songs**: Users can input song titles, artist names, ratings (1–5), and personal comments.
-- 📋 **View Playlist**: Displays all entered songs in a structured format.
-- 📊 **Average Rating**: Calculates and displays the average rating of all added songs.
-- 🚪 **Exit Functionality**: Allows users to exit back to the main screen.
+-  **Add Songs**: Users can input song titles, artist names, ratings (1–5), and personal comments.
+-  **View Playlist**: Displays all entered songs in a structured format.
+-  **Average Rating**: Calculates and displays the average rating of all added songs.
+-  **Exit Functionality**: Allows users to exit back to the main screen.
 
 ## Screens
 

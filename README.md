@@ -119,33 +119,6 @@ jobs:
           path: ${{ env.main_project_module }}/build/outputs/bundle/release/
 
 
-## Features
- Add Songs to Playlist
-Users can input the following details for each song:
-
-Song Title
-
-Artist Name
-
-Rating (between 1 and 5)
-
-User Comment
-
- Input Validation
-Ensures all fields are filled correctly and the rating is within the valid range (1–5). Invalid entries trigger helpful error messages.
-
- View Playlist
-Displays all the songs that have been added, including:
-
-Title
-
-Artist
-
-Rating
-
-Comment
-
-Songs are displayed in a clean, formatted list.
 
 ## Calculate Average Rating
 Calculates and displays the average rating of all songs using a loop-based algorithm. If no ratings are present, a warning message is shown.

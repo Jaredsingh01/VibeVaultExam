@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedView"
+    android:background="@drawable/back">
+
+  <TextView
+      android:id="@+id/titleDetailedView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Song Playlist Details"
+      android:textColor="#FFFFFF"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:layout_marginTop="16dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/displaySongsButton"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Display Songs"
+      android:backgroundTint="#4CAF50"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginTop="16dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/titleDetailedView" />
+
+  <Button
+      android:id="@+id/calculateAverageButton"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Calculate Average Rating"
+      android:backgroundTint="#4CAF50"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginTop="8dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/displaySongsButton" />
+
+  <ScrollView
+      android:id="@+id/scrollViewContainer"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_margin="16dp"
+      app:layout_constraintBottom_toTopOf="@+id/averageRatingTextView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/calculateAverageButton">
+
+    <TextView
+        android:id="@+id/allSongsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Click 'Display Songs' to see the playlist."
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"/>
+
+  </ScrollView>
+
+
+  <TextView
+      android:id="@+id/averageRatingTextView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginBottom="8dp"
+      android:textSize="18sp"
+      android:textStyle="italic"
+      android:gravity="center"
+      android:text="Average Rating: N/A"
+      android:textColor="#FFFFFF"
+      app:layout_constraintBottom_toTopOf="@+id/returnToMainButton"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/returnToMainButton"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Return to Main Screen"
+      android:backgroundTint="#FF5722"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginBottom="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

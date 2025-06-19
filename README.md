@@ -13,7 +13,8 @@ VibeVault is a simple Android application that allows users to create and manage
 
 1. **MainActivity** – Entry point of the app.
  
-![Poster - Discover, Curate, and Share Playlists](https://github.com/user-attachments/assets/2ed11b6f-3c18-4e0c-ba5e-f9841e8aa5b6)
+![Screenshot 2025-06-19 132939](https://github.com/user-attachments/assets/31292244-c982-4a1d-b2df-1f656188c0e8)
+
 
 
 

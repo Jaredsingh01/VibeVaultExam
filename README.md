@@ -11,6 +11,11 @@ VibeVault is a simple Android application that allows users to create and manage
 
 ## Screens
 
+**Logo**
+
+![Screenshot 2025-06-19 132001](https://github.com/user-attachments/assets/061b52f0-a20c-497e-8ace-04871cbb3081)
+
+
 1. **MainActivity** – Entry point of the app.
  
 ![Screenshot 2025-06-19 132939](https://github.com/user-attachments/assets/31292244-c982-4a1d-b2df-1f656188c0e8)
